@@ -11,7 +11,7 @@ Arbitrage Detection through Monte Carlo Simulation to assess if a rating is unde
 1. Data Processing & Return Adjustments
 
 - The mean of daily returns is removed to focus purely on volatility, as market drifts can introduce biases in short-term predictions.
-- We apply exponential weighting to give more importance to recent data, capturing changing volatility dynamics in crypto markets.
+- We apply exponential weighting to give more importance to recent data, capturing the volatility dynamics in crypto markets.
 
 2. Monte Carlo Simulations
 - We simulate thousands of price paths assuming returns follow a normal distribution 
